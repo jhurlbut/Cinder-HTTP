@@ -11,7 +11,7 @@
 #if ! defined( ASIO_STANDALONE )
 #define ASIO_STANDALONE 1
 #endif
-#define USING_SSL
+//#define USING_SSL
 #include "asio/asio.hpp"
 #if defined( USING_SSL )
 #include "asio/ssl.hpp"
